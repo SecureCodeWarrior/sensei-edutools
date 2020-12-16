@@ -1,0 +1,6 @@
+type: edu
+files:
+- name: test/Tests.java
+  visible: false
+- name: src/Greeter.java
+  visible: true

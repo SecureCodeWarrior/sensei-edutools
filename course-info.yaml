@@ -1,0 +1,6 @@
+title: Sensei Getting Started
+language: English
+summary: Sensei getting started course. Make sure sensei is installed.
+programming_language: Java
+content:
+- lesson1 - setup

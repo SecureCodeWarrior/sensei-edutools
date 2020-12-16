@@ -1,0 +1,4 @@
+type: ide
+files:
+- name: src/Main.java
+  visible: true
