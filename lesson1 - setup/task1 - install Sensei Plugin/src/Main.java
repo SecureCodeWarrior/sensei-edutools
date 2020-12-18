@@ -1,5 +1,5 @@
 public class Main {
    public static void main(String[] args) {
-      // Write your solution here
+      // This is an IDE activity. No coding required.
    }
 }
