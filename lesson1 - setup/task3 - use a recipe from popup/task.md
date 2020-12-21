@@ -1,6 +1,6 @@
 # Use A Cookbook Recipe
 
-The "Sensei Edutools" cookbook that you added from Github has a recipe called:
+The "SenseiEdutools" cookbook that you added from Github has a recipe called:
 
 - "convert Hello World to Welcome to Sensei"
 

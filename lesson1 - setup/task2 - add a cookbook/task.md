@@ -14,9 +14,13 @@ Open the Sensei Cookbooks manager, either by:
 Now we want to add a reference to the Cookbook on GitHub.
 
 - Click the "+" button to add a new cookbook.
-- Give it a name e.g. "Sensei Edutools"
+- Give it a CookbookId to uniquely identify it in this project e.g. "SenseiEdutools"
 - For the location, use the URL of our recipe repo:
-    - `https://github.com/SecureCodeWarrior/sensei-edutools-recipes.git`
+    - `https://github.com/SecureCodeWarrior/sensei-edutools-recipes.git|main`
+  
+> **Note:**
+> 
+> _The Github url is the repo path, with the addition of the branch to use._
   
 Once you've installed it, Sensei will start analysing your code in real-time to find any Recipes that match.
 

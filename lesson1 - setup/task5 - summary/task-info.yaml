@@ -5,8 +5,10 @@ options:
   is_correct: true
 - text: Improve your martial arts skills
   is_correct: false
-message_correct: Congratulations! Yes, Sensei lives in the IDE and helps you improve your coding skills.
-message_incorrect: Sadly, no. Sensei lives in the IDE and helps you improve your coding skills.
+message_correct: Congratulations! Yes, Sensei lives in the IDE and helps you improve
+  your coding skills.
+message_incorrect: Sadly, no. Sensei lives in the IDE and helps you improve your coding
+  skills.
 files:
 - name: src/Main.java
   visible: false
