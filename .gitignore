@@ -13,4 +13,4 @@ buildNumber.properties
 .gradle/
 .idea/
 **/build/
-.coursecreator/
+/.coursecreator/Sensei_Getting_Started.zip

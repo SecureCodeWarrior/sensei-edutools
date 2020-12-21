@@ -1,0 +1,144 @@
+{
+  "summary" : "Sensei getting started course.",
+  "title" : "Sensei Getting Started",
+  "programming_language" : "JAVA",
+  "language" : "en",
+  "course_type" : "PyCharm",
+  "items" : [
+    {
+      "title" : "lesson1 - setup",
+      "task_list" : [
+        {
+          "name" : "task1 - install Sensei Plugin",
+          "files" : {
+            "src/Main.java" : {
+              "name" : "src/Main.java",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "public class Main {\n   public static void main(String[] args) {\n      // This is an IDE activity. No coding required.\n   }\n}"
+            }
+          },
+          "description_text" : "## Install Sensei\n\nWe need to install the Sensei plugin before we can do anything.\n\nThe easiest way to install it is in the IDE itself:\n\n\n\n- From \"Preferences\\Settings | Plugins\":\n  - On a Mac: use \"IntelliJ IDEA | Preferences | Plugins\"\n  - On Windows: use |Settings | Plugins\"\n- Choose \"Marketplace\"\n- search for \"Sensei secure code warrior\"\n- Install\n\nNote: \nIf you need more help installing plugins then there are [instructions on the JetBrains site](https://www.jetbrains.com/help/idea/managing-plugins.html). \n\nYou'll need to restart the editor, and when you do. We'll see you back here in a few seconds to start on the next task.\n\nYou'll know when Sensei is in stalled because you'll see the Sensei menu in the menu bar.\n\nAnd you'll see the \"Sensei Cookbooks\" tab in the bottom.\n\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "ide"
+        },
+        {
+          "name" : "task2 - add a cookbook",
+          "files" : {
+            "src/Main.java" : {
+              "name" : "src/Main.java",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "public class Main {\n   public static void main(String[] args) {\n      // This is an IDE activity. No coding required.\n   }\n}"
+            }
+          },
+          "description_text" : "# Add A Cookbook\n\nSensei uses Cookbooks of Recipes which are designed to help you with a particular technology or for your Team coding standards.\n\nTo help with this tutorial, we have created a Cookbook on GitHub that you can add to this project. In this lesson we will install it because we'll need it to complete the next task.\n\n## To install the Cookbook.\n\nOpen the Sensei Cookbooks manager, either by:\n\n- clicking on the \"Sensei Cookbooks\" tab\n- choose \"Recipe Editor\" from the main \"Sensei\" menu\n\nNow we want to add a reference to the Cookbook on GitHub.\n\n- Click the \"+\" button to add a new cookbook.\n- Give it a name e.g. \"Sensei Edutools\"\n- For the location, use the URL of our recipe repo:\n    - `https://github.com/SecureCodeWarrior/sensei-edutools-recipes.git`\n  \nOnce you've installed it, Sensei will start analysing your code in real-time to find any Recipes that match.\n\nIf you've done this correctly then you'll see the cookbook in the \"Locally configured cookbooks\" list, and when you start the next task you see some code that has been highlighted by Sensei as being in error.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "ide"
+        },
+        {
+          "name" : "task3 - use a recipe from popup",
+          "files" : {
+            "test/Tests.java" : {
+              "name" : "test/Tests.java",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.Assert;\nimport org.junit.Test;\n\npublic class Tests {\n  @Test\n  public void testSolution() {\n    // put your test here\n    Assert.assertEquals(\"Welcome to Sensei!\", Greeter.greet());\n  }\n}"
+            },
+            "src/Greeter.java" : {
+              "name" : "src/Greeter.java",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "public class Greeter {\n\n    public static String greet(){\n        // use alt+enter on the return statement\n        // and select the Sensei action to\n        // say \"Welcome to Sensei\"\n        return \"Hello, World!\";\n    }\n}"
+            }
+          },
+          "description_text" : "# Use A Cookbook Recipe\n\nThe \"Sensei Edutools\" cookbook that you added from Github has a recipe called:\n\n- \"convert Hello World to Welcome to Sensei\"\n\nThis will have marked the `return \"Hello, World!\";` line in the source code as having an error.\n\n## Hover Over the Error\n\nHover the mouse over the line of code in error.\n\nYou should see a dialog that says `use Sensei to convert the String \"Hello, World!\"`\n\nThis is because the recipe \"convert Hello World to Welcome to Sensei\" found the String `Hello, World!` and is configured to report that as an error.\n\n## Fix the Error Using the Hover Popup Dialog\n\nSensei allows us to create recipes that 'find' errors, and allow use to create QuickFixes for those errors. We can apply the QuickFix for this error in a number of ways.\n\n- when you have hovered the mouse over the line of code and can see the dialog\n- click on the link that reads `say \"Welcome to Sensei!\"`\n\nThe code should now change to ` return \"Welcome to Sensei!\";`.\n\nClick the Check button to complete this task.\n\n\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "task4 - use a recipe with alt+enter",
+          "files" : {
+            "test/Tests.java" : {
+              "name" : "test/Tests.java",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.Assert;\nimport org.junit.Test;\n\npublic class Tests {\n  @Test\n  public void testSolution() {\n    // put your test here\n    Assert.assertEquals(\"Welcome to Sensei!\", Greeter.greet());\n  }\n}"
+            },
+            "src/Greeter.java" : {
+              "name" : "src/Greeter.java",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "public class Greeter {\n\n    public static String greet(){\n        // click on the line of code with the `return` statement\n        // press alt+enter (cmd+enter on Mac)\n        // select the Sensei action to `say \"Welcome to Sensei\"`\n        return \"Hello, World!\";\n    }\n}"
+            }
+          },
+          "description_text" : "# QuickFix using Intentions\n\nSensei hooks into the normal IntelliJ intentions dialog.\n\n- click on the return statement line flagged as an error\n- press `alt+enter` (Windows) or `cmd+enter` (Mac)\n\nYou should see an intentions dialog popup.\n\n## Use QuickFix\n\nSelect the QuickFix entry for `say \"Welcome to Sensei!\"`\n\nThe code should be amended so that the `return` statement now reads:\n\n```java\nreturn \"Welcome to Sensei!\";\n```\n   \nPress the `[Check]` button below to complete the task. ",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "choiceOptions" : [
+            {
+              "text" : "Identify coding patterns and apply custom fixes to your code",
+              "status" : "CORRECT"
+            },
+            {
+              "text" : "Improve your martial arts skills",
+              "status" : "INCORRECT"
+            }
+          ],
+          "isMultipleChoice" : false,
+          "name" : "task5 - summary",
+          "files" : {
+            "src/Main.java" : {
+              "name" : "src/Main.java",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "public class Main {\n   public static void main(String[] args) {\n      // Write your solution here\n   }\n}"
+            }
+          },
+          "description_text" : "# Summary\n\nCongratulations.\n\nYou have:\n\n- installed Sensei\n- installed a 3rd party Cookbook from GitHub\n- used a Recipe in the Cookbook to fix a coding issue:\n   - from the Hover Context popup\n   - from the Intentions popup\n    \nSensei allows you to create your own recipes that match coding patterns and create custom QuickFix code replacements to amend the code and enforce your own coding standards.\n\nIn the next lesson we will look at, and amend the recipe we used, to see how Sensei implements the recipes.\n\nBut first... a quick Quiz. Choose an answer from the list below and click `[Check]` button to complete this task.\n\n## What does Sensei help you do?\n    \n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "choice"
+        }
+      ],
+      "type" : "lesson"
+    }
+  ],
+  "additional_files" : [
+    {
+      "name" : "LICENSE",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "MIT License\n\nCopyright (c) 2020 Secure Code Warrior\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+    },
+    {
+      "name" : "README.md",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "# sensei-edutools\nAn EduTools based course for learning Sensei\n"
+    },
+    {
+      "name" : "build.gradle",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "buildscript {\n    repositories {\n        mavenCentral()\n    }\n}\n\ndef printOutput(def output) {\n    return tasks.create(\"printOutput\") {\n        for (line in output.toString().readLines()) {\n            println \"#educational_plugin\" + line\n        }\n    }\n}\n\nsubprojects {\n    apply plugin: 'application'\n    apply plugin: 'java'\n\n    sourceCompatibility = 1.8\n\n    repositories {\n        mavenCentral()\n    }\n\n    dependencies {\n        testCompile group: 'junit', name: 'junit', version: '4.12'\n    }\n\n    sourceSets {\n        main {\n            java.srcDir 'src'\n        }\n        test {\n            java.srcDir 'test'\n        }\n    }\n\n    mainClassName = project.hasProperty(\"mainClass\") ? project.getProperty(\"mainClass\") : \"\"\n\n    def runOutput = new ByteArrayOutputStream()\n    tasks.run.setStandardOutput(runOutput)\n    tasks.run.doLast { printOutput(runOutput) }\n}\n\nproject(':util') {\n    dependencies {\n        compile group: 'junit', name: 'junit', version: '4.12'\n    }\n}\n\nconfigure(subprojects.findAll {it.name != 'util'}) {\n  dependencies {\n    compile project(':util').sourceSets.main.output\n    testCompile project(':util').sourceSets.test.output\n  }\n}\n"
+    }
+  ],
+  "version" : 11
+}
