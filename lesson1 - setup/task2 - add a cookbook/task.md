@@ -16,7 +16,7 @@ Now we want to add a reference to the Cookbook on GitHub.
 - Click the "+" button to add a new cookbook.
 - Give it a name e.g. "Sensei Edutools"
 - For the location, use the URL of our recipe repo:
-    - `https://insert repo here`
+    - `https://github.com/SecureCodeWarrior/sensei-edutools-recipes.git`
   
 Once you've installed it, Sensei will start analysing your code in real-time to find any Recipes that match.
 
