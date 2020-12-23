@@ -15,7 +15,7 @@ Download the course `.zip` from releases:
 
 ## Install Course
 
-- `Learn and Teach > Browse Courses`
+- `File > Learn and Teach > Browse Courses`
 - `My Courses`
 - `Open Courses from Disk...`
    - and select the `Sensei_Getting_Started.zip` file you downloaded.
