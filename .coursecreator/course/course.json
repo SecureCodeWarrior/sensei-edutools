@@ -21,7 +21,7 @@
               "text" : "public class Main {\n   public static void main(String[] args) {\n      // This is an IDE activity. No coding required.\n   }\n}"
             }
           },
-          "description_text" : "## Install Sensei\n\nWe need to install the Sensei plugin before we can do anything.\n\nThe easiest way to install it is in the IDE itself:\n\n\n\n- From \"Preferences\\Settings | Plugins\":\n  - On a Mac: use \"IntelliJ IDEA | Preferences | Plugins\"\n  - On Windows: use |Settings | Plugins\"\n- Choose \"Marketplace\"\n- search for \"Sensei secure code warrior\"\n- Install\n\nNote: \nIf you need more help installing plugins then there are [instructions on the JetBrains site](https://www.jetbrains.com/help/idea/managing-plugins.html). \n\nYou'll need to restart the editor, and when you do. We'll see you back here in a few seconds to start on the next task.\n\nYou'll know when Sensei is in stalled because you'll see the Sensei menu in the menu bar.\n\nAnd you'll see the \"Sensei Cookbooks\" tab in the bottom.\n\n",
+          "description_text" : "## Install Sensei\n\nWe need to install the Sensei plugin before we can do anything.\n\nThe easiest way to install it is in the IDE itself:\n\n\n\n- From \"Preferences\\Settings | Plugins\":\n  - On macOS: use \"IntelliJ IDEA | Preferences | Plugins\"\n  - On Windows: use |Settings | Plugins\"\n- Choose \"Marketplace\"\n- search for \"Sensei secure code warrior\"\n- Install\n\nNote: \nIf you need more help installing plugins then there are [instructions on the JetBrains site](https://www.jetbrains.com/help/idea/managing-plugins.html). \n\nYou'll need to restart the editor, and when you do. We'll see you back here in a few seconds to start on the next task.\n\nYou'll know when Sensei is in stalled because you'll see the Sensei menu in the menu bar.\n\nAnd you'll see the \"Sensei Cookbooks\" tab in the bottom.\n\n",
           "description_format" : "MD",
           "feedback_link" : {
             "link_type" : "STEPIK"
@@ -81,10 +81,10 @@
               "name" : "src/Greeter.java",
               "placeholders" : [ ],
               "is_visible" : true,
-              "text" : "public class Greeter {\n\n    public static String greet(){\n        // click on the line of code with the `return` statement\n        // press alt+enter (cmd+enter on Mac)\n        // select the Sensei action to `say \"Welcome to Sensei\"`\n        return \"Hello, World!\";\n    }\n}"
+              "text" : "public class Greeter {\n\n    public static String greet(){\n        // click on the line of code with the `return` statement\n        // press alt+enter (Windows) or option+return (macOS)\n        // select the Sensei action to `say \"Welcome to Sensei\"`\n        return \"Hello, World!\";\n    }\n}"
             }
           },
-          "description_text" : "# QuickFix using Intentions\n\nSensei hooks into the normal IntelliJ intentions dialog.\n\n- click on the return statement line flagged as an error\n- press `alt+enter` (Windows) or `cmd+enter` (Mac)\n\nYou should see an intentions dialog popup.\n\n## Use QuickFix\n\nSelect the QuickFix entry for `say \"Welcome to Sensei!\"`\n\nThe code should be amended so that the `return` statement now reads:\n\n```java\nreturn \"Welcome to Sensei!\";\n```\n   \nPress the `[Check]` button below to complete the task. ",
+          "description_text" : "# QuickFix using Intentions\n\nSensei hooks into the normal IntelliJ intentions dialog.\n\n- click on the return statement line flagged as an error\n- press `alt+enter` (Windows) or `option+return` (macOS)\n\nYou should see an intentions dialog popup.\n\n## Use QuickFix\n\nSelect the QuickFix entry for `say \"Welcome to Sensei!\"`\n\nThe code should be amended so that the `return` statement now reads:\n\n```java\nreturn \"Welcome to Sensei!\";\n```\n   \nPress the `[Check]` button below to complete the task. ",
           "description_format" : "MD",
           "feedback_link" : {
             "link_type" : "STEPIK"
