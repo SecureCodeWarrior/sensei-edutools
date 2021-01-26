@@ -3,7 +3,8 @@
 Sensei hooks into the normal IntelliJ intentions dialog.
 
 - click on the return statement line flagged as an error
-- press `alt+enter` (Windows) or `cmd+enter` (Mac)
+- press  &amp;shortcut:ShowIntentionActions;
+  - _by default `alt+enter` (Windows) or `cmd+enter` (Mac)_
 
 You should see an intentions dialog popup.
 

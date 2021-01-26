@@ -1,15 +1,17 @@
 # Add A Cookbook
 
-Sensei uses Cookbooks of Recipes which are designed to help you with a particular technology or for your Team coding standards.
+Sensei uses _Cookbooks_, i.e. collections of Recipes, that are designed to help you with a particular technology or for your team's coding standards.
 
-To help with this tutorial, we have created a Cookbook on GitHub that you can add to this project. In this lesson we will install it because we'll need it to complete the next task.
+To help with this tutorial, we have created a [Cookbook on GitHub](https://github.com/SecureCodeWarrior/sensei-edutools-recipes) that you can add to this project.
+
+In this lesson we will install the Cookbook from Github because we'll need it to complete the next task.
 
 ## To install the Cookbook.
 
 Open the Sensei Cookbooks manager, either by:
 
-- clicking on the "Sensei Cookbooks" tab
-- choose "Recipe Editor" from the main "Sensei" menu
+- clicking on the **Sensei Cookbooks** tab
+- choose "**Recipe Editor**" from the main "**Sensei**" menu
 
 Now we want to add a reference to the Cookbook on GitHub.
 

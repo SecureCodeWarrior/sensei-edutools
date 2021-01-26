@@ -4,3 +4,4 @@ summary: Sensei getting started course.
 programming_language: Java
 content:
 - lesson1 - setup
+- lesson2

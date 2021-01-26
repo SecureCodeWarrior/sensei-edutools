@@ -2,3 +2,7 @@ type: ide
 files:
 - name: src/Main.java
   visible: true
+- name: images/sensei-menu.png
+  visible: false
+- name: images/sensei-cookbooks-tab.png
+  visible: false
