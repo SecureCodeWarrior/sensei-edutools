@@ -5,7 +5,7 @@ We need to install the Sensei plugin before we can do anything.
 The easiest way to install it is from within **%IDE_NAME%** itself:
 
 - From **Preferences\Settings | Plugins**:
-  - On a Mac: use **IntelliJ IDEA | Preferences | Plugins**
+  - On macOS: use **IntelliJ IDEA | Preferences | Plugins**
   - On Windows: use **Settings | Plugins**
 - Choose **Marketplace**
 - search for "**Sensei secure code warrior**"
